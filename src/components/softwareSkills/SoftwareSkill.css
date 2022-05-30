@@ -1,0 +1,30 @@
+.dev-icons {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.software-skill-inline {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: "Google Sans Regular";
+}
+
+.software-skill-inline > i {
+  color: #868e96;
+}
+
+.software-skill-inline > i:hover {
+  color: #645beb;
+}
+
+@media screen and (max-width: 992px) {
+  .dev-icons {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
